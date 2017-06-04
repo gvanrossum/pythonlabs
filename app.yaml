@@ -8,5 +8,9 @@ handlers:
   static_files: yes_virginia.html
   upload: yes_virginia.html
 
+- url: /logos.html
+  static_files: logos.html
+  upload: logos.html
+
 - url: /.*
   script: main.py
