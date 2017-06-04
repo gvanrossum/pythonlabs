@@ -12,5 +12,9 @@ handlers:
   static_files: logos.html
   upload: logos.html
 
+- url: /favicon.ico
+  static_files: favicon.ico
+  upload: favicon.ico
+
 - url: /.*
   script: main.py
