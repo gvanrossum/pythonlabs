@@ -16,5 +16,13 @@ handlers:
   static_files: favicon.ico
   upload: favicon.ico
 
+- url: /logo1.gif
+  static_files: logo1.gif
+  upload: logo1.gif
+
+- url: /logo2.gif
+  static_files: logo2.gif
+  upload: logo2.gif
+
 - url: /.*
   script: main.py
