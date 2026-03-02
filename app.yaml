@@ -1,6 +1,7 @@
-runtime: python27
-api_version: 1
-threadsafe: false
+runtime: python312
+
+automatic_scaling:
+  max_instances: 2
 
 handlers:
 
@@ -25,4 +26,4 @@ handlers:
   upload: logo2.gif
 
 - url: /.*
-  script: main.py
+  script: auto
