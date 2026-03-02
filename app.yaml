@@ -1,4 +1,4 @@
-runtime: python312
+runtime: python313
 
 automatic_scaling:
   max_instances: 2
@@ -8,22 +8,28 @@ handlers:
 - url: /
   static_files: yes_virginia.html
   upload: yes_virginia.html
+  secure: always
 
 - url: /logos.html
   static_files: logos.html
   upload: logos.html
+  secure: always
 
 - url: /favicon.ico
   static_files: favicon.ico
   upload: favicon.ico
+  secure: always
 
 - url: /logo1.gif
   static_files: logo1.gif
   upload: logo1.gif
+  secure: always
 
 - url: /logo2.gif
   static_files: logo2.gif
   upload: logo2.gif
+  secure: always
 
 - url: /.*
   script: auto
+  secure: always
